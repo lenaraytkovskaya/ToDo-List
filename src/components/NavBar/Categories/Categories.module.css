@@ -1,0 +1,92 @@
+.container{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.025em;
+    text-align: left;
+    margin: 30px ;
+
+}
+.navLink{
+    text-decoration: none;
+    color: #F9F9F9;
+    margin: 0;
+}
+.newCategory{
+    position: relative;
+    z-index: 1
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+}
+.addButton{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.025em;
+    color: #29A19C;
+    border: none;
+    outline: none;
+    background-color: #2C3440;
+    cursor: pointer;
+}
+.addNewCategory{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #29A19C;
+}
+.input{
+    width: 700px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: #2C3440;
+    color: white;
+    font-size: 32px;
+    padding-left: 15px;
+}
+.form{
+    width: 100%;
+    height: 100%;
+}
+.addButtonForm{
+    align-items: center;
+    gap: 10px;
+    padding: 20px 25px;
+    background: #29A19C;
+    border-radius: 10px ;
+    border: none;
+    color: white;
+    font-size: 32px;
+
+
+}
+.addButtonForm:hover{
+    background: #195d59;
+}
+.close{
+    background: #F05454;
+
+}
+.close:hover{
+    background: #8b3030
+}
+.buttonsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}

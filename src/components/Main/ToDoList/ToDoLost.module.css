@@ -1,0 +1,72 @@
+.container{
+    background-color: #2C3440;
+    border-radius: 10px;
+    margin: 20px 70px ;
+    padding: 20px;
+}
+.doneTasks{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #29A19C;
+}
+.activeTasks{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #29A19C;
+    margin-bottom: 30px;
+}
+.taskContainer{
+
+}
+.taskContent{
+    margin-top: 20px;
+}
+.done{
+    text-decoration: line-through white 1px;
+}
+.spanTask{
+    cursor: pointer;
+    padding: 15px  20px;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+.newTaskBtn{
+    font-size: 18px;
+    padding: 15px 25px;
+    display: flex;
+
+}
+.taskItem{
+    margin: 10px 0px ;
+    background: #2C3440;
+    border: 1px solid rgba(249, 249, 249, 0.2);
+    border-radius: 10px;
+
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #F9F9F9;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.noneBtn{
+    background-color: #2C3440;
+    border: none;
+    cursor: pointer;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+
+    width: 50%;
+
+}
